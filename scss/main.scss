@@ -1,0 +1,11 @@
+// https://www.youtube.com/watch?v=gYzHS-n2gqU
+// main sass file
+//  need a way to compile down to regular css because the browser doesn't read scss : node sass (npm i node-sass)
+// to get package.json : npm init
+
+$primary-color: #444;
+
+body {
+  background: $primary-color;
+  color: #fff;
+}
